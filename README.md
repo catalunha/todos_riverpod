@@ -1,3 +1,4 @@
 # todos_riverpod
 
-A new Flutter project.
+Meu primeiro projeto em Riverpod.
+Este todo foi modificado da doc.
