@@ -38,7 +38,6 @@ class _HomeState extends ConsumerState<Home> {
 
   @override
   Widget build(BuildContext context) {
-    // final todos = ref.watch(todoListFilteredProv);
     newTodoController.text = '';
     return Scaffold(
       body: Column(
@@ -70,7 +69,6 @@ class _HomeState extends ConsumerState<Home> {
             ],
           ),
           const Toolbar(),
-          // if (todos.isNotEmpty) const Divider(height: 0),
           const TodoList(),
         ],
       ),
